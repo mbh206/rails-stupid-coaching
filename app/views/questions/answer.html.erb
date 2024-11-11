@@ -1,0 +1,12 @@
+<div class="container">
+<h1>Stupid Coaching</h1>
+<blockquote class="blockquote px-4">
+  <p class="mb-0 py-2"><%= params[:answer] %></p>
+  <footer class="blockquote-footer">You</footer>
+</blockquote>
+<blockquote class="blockquote px-4">
+  <p class="mb-0 py-2"><%= @response %></p>
+  <footer class="blockquote-footer">Your coach</footer>
+</blockquote>
+<%= link_to "Ask another question", "/ask" %>
+</div>
